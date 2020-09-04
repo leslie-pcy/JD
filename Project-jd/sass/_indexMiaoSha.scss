@@ -1,0 +1,440 @@
+.miaosha{
+    height:260px;
+    margin-bottom: 20px;
+
+    .left{
+        width: 190px;
+        height: 100%;
+        float: left;
+        position: relative;
+
+        h3{
+            width: 100%;
+            position: absolute;
+            top: 30px;
+            text-align: center;
+            line-height: 45px;
+            font-size: 30px;
+            color: white;
+            font-weight: 700;
+        }
+
+        p{
+            position: absolute;
+            font-size: 14px;
+            top: 165px;
+            color: white;
+            line-height: 28px;
+            text-align: center;
+            width: 100%;
+
+            #miaosha_time{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+
+        #miaosha_hour,#miaosha_minute,#miaosha_second{
+            width: 30px;
+            height: 30px;
+            background: #2f3430;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top:205px;
+            text-align: center;
+            line-height: 30px;
+        }
+        #miaosha_hour{
+            left:30px;
+        }
+        #miaosha_minute{
+            left:80px;
+        }
+        #miaosha_second{
+            left:130px;
+        }
+
+        .point_1,.point_2{
+            position: absolute;
+            top: 205px;
+            width: 20px;
+            height: 30px;
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+        .point_1{
+            left: 60px;
+        }
+        .point_2{
+            left: 110px;
+        }
+        
+    }
+
+    .cen{
+        width: 800px;
+        height: 100%;
+        background-color: papayawhip;
+        float: left;
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+      
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-button-next,.swiper-button-prev{
+            color:#fff;
+            background-color: rgba(0,0,0,.15);
+            width: 25px;
+            height: 35px;
+            outline: none;
+            border-radius: 25px;
+        }
+        .swiper-button-next::after,.swiper-button-prev::after{
+            font-size: 14px;
+        }
+        .swiper-button-prev{
+            margin-left: -10px;
+            border-radius: 0px 25px 25px 0;
+        }
+        .swiper-button-next{
+            margin-right: -10px;
+            border-radius: 25px 0 0px 25px;
+        }
+    }
+
+    .right{
+        width: 180px;
+        padding: 10px;
+        height: 240px;
+        background-color: #fff;
+        float: left;
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+      
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            margin-top: -15px;
+      
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+
+          
+    }
+
+}
+
+.tejia{
+    height: 340px;
+    margin-bottom: 20px;
+
+    .top{
+        height: 60px;
+        padding: 0 20px;
+
+        .tit{
+            font-size: 24px;
+            color:#333;
+            font-weight: 700;
+            line-height: 60px;
+            float: left;
+        }
+
+        .jiantou{
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 1px solid #e1251b;
+            color:#e1251b;
+            text-align: center;
+            line-height: 14px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 23px;
+            margin-left: 10px;
+        }
+
+    }
+
+    .l{
+        width: 590px;
+        height: 100%;
+        background-color: white;
+        float: left;
+        margin-right: 10px;
+
+        .top{
+            ul{
+                height: 21px;
+                float: right;
+                margin-top: 20px;
+                
+
+                li{
+                    float: left;
+                    margin-left: 28px;
+                    width: 28px;
+                    color: #999;
+                    font-size: 14px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                .red{
+                    color:#e1251b;
+                    border-bottom: 2px solid #e1251b;
+                }
+            }
+        }
+
+        .bot{
+            height: 270px;
+            width: 100%;
+            padding: 0 0 0 20px;
+
+            .left{
+                cursor: pointer;
+                float: left;
+                padding-top: 45px;
+                box-sizing: border-box;
+                width: 170px ;
+                height: 265px;
+                background-color: rgba(109,126,146,.05);
+                position: relative;
+
+                img{
+                    width: 120px;
+                    height: 120px;
+                    margin-left: 25px;
+                }
+
+                h4{
+                    width: 100%;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 20px;
+                    margin-top: 14px;
+                    margin-bottom: 8px;
+                }
+
+                .price{
+                    margin-left: 40px;
+                    float: left;
+                    color:#e1251b;
+                    
+                    span{
+                        font-size: 18px;
+                        line-height: 16px;
+                        font-weight: 700;
+                    }
+                }
+
+                .del{
+                    float: left;
+                    font-size: 12px;
+                    color:#999;
+                    text-decoration: line-through;
+                    margin: 0 5px;
+                }
+
+                .min{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 90px;
+                    height: 24px;
+                    color:white;
+                    text-align: center;
+                    line-height: 24px;  
+                    z-index: 1;
+                }
+                .special{
+                    position: absolute;
+                    width: 90px;
+                    height: 24px;
+                    left: -25px;
+                    top: 0px;
+                    
+                }
+
+
+            }
+
+            .right{
+                float: left;
+                margin-left: 20px;
+                ul{
+                    width: 380px;
+                    height: 270px;
+
+                    li{
+                        cursor: pointer;
+                        width: 170px;
+                        height: 90px;
+                        float: left;
+                        margin: 20px 20px 20px 0;
+                        position: relative;
+
+                        img{
+                            width: 84px;
+                            height: 84px;
+                            float: left;
+                        }
+
+                        h4{
+                            position: absolute;
+                            top:0;
+                            left: 90px;
+                            width: 75px;
+                            color:#333;
+                        }
+
+                        .price{
+                            font-size: 14px;
+                            color:#e1251b;
+                            position: absolute;
+                            top:35px;
+                            left: 90px;
+                            font-weight: 700;
+                        }
+
+                        .del{
+                            position: absolute;
+                            top:50px;
+                            left: 90px;
+                            color:#999;
+                            text-decoration: line-through;
+                        }
+
+                        .count{
+                            position: absolute;
+                            bottom: 0;
+                            left: 90px;
+                            color:#999;
+
+                            span{
+                                color: #e1251b;
+                            }
+                        }
+
+                        .special{
+                            width: 84px;
+                            height: 16px;
+                            position: absolute;
+                            bottom: 5px;
+                            background-color: rgba(0,0,0,.6);
+                            color:white;
+                            text-align: center;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .r{
+        width: 590px;
+        height: 100%; 
+        background-color: white;
+        float: left;
+        position: relative;
+
+        .bot{
+            height: 270px;
+            width: 100%;
+            padding: 0 0 0 20px;
+
+            .left{
+                float: left;
+                width: 270px;
+                height: 265px;
+                margin-right: 15px;
+                background-color: papayawhip;
+                cursor: pointer;
+            }
+
+            .right{
+                float: left;
+                width: 280px;
+                height: 100%;
+                position: absolute;
+                top: 30px;
+                left: 320px;
+
+                ul{
+                    height: 100%;
+                    li{
+                        cursor: pointer;
+                        width: 115px;
+                        height: 100px;
+                        float: left;
+
+                        img{
+                            width: 100px;
+                            height: 50px;
+                        }
+                        
+                        p{
+                            margin-top: 15px;
+                            text-align: center;
+                        }
+                    }
+
+                    .line{
+                        width: 1px;
+                        height: 70px;
+                        background: linear-gradient(180deg,white,#eeeeee,#eeeeee,white);
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+

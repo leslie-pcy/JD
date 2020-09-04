@@ -1,0 +1,143 @@
+@import "regist-login-public.scss";
+
+.content{
+    width: 1210px;
+    margin: 0 auto;
+
+    .step{
+        width: 280px;
+        margin: 0 auto;
+        padding-top: 80px;
+
+        .green{
+            float: left;
+            
+            div{
+                width: 24px;
+                height: 24px;
+                background-color:#33bb44;
+                text-align: center;
+                line-height: 24px;
+                color:#fff;
+                border-radius: 50%;
+                margin: 0 auto;
+                margin-bottom: 12px;
+
+            }
+
+            p{
+                color:#33bb44;
+                margin-left: 10px;
+            }
+        }
+
+        .grey{
+            float: left;
+            text-align: center;
+
+            div{
+                margin: 0 auto;
+                width: 24px;
+                height: 24px;
+                text-align: center;
+                line-height: 24px;
+                color:#ccc;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                margin-bottom: 12px;
+            }
+
+            p{
+                color:#999;
+            }
+
+        }
+
+        .point{
+            color: #ccc;
+            float: left;
+            width: 150px;
+            font-size: 20px;
+        }
+        
+    }
+
+    .message{
+        width: 400px;
+        margin: 50px auto 0;
+        position: relative;
+
+        div{
+            width: 100px;
+            height: 50px;
+            border: 1px solid rgb(221, 221, 221);
+            color:#666;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            font-size: 22px;
+            font-family: "黑体";
+        }
+        div:hover{
+            border: 1px solid #666; 
+        }
+        #username,#password{
+            width: 298px;
+            height: 52px;
+            line-height: 52px;
+            padding-left: 20px;
+            box-sizing: border-box;
+            border: 1px solid rgb(221, 221, 221);
+            border-left: none;
+            float: left;
+            color:#666;
+            font-size: 16px;
+            
+        }
+        
+        
+        #regist{
+            width: 400px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+            background-color: #e2231a;
+            margin-top: 50px;
+            font-size: 16px;
+        }
+        #regist:hover{
+            background-color: #b91c13;
+        }
+
+        p{
+            color:#ff9911;
+            margin-bottom: 35px; 
+            margin-left: 10px;
+            height: 68px;
+        }
+
+    }
+
+    .bot{
+        width: 400px;
+        margin: 30px auto 140px;
+
+        .l{
+            float: left;
+        }
+
+        .r{
+            float: right;
+        }
+
+        div{
+            a{
+                color:#666;
+            }
+            a:hover{
+                color:#e1251b;
+            }
+        }
+    }
+}

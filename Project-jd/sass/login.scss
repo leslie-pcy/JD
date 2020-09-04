@@ -1,0 +1,320 @@
+@import "regist-login-public.scss";
+
+header,.tishi,.content{
+    width: 990px;
+    margin: 0 auto;
+}
+.header-wrap{
+    box-shadow: none;
+
+    header{
+        .r{
+            a{
+                color:#666;
+                cursor: pointer;
+                position: relative;
+                top: 60px;
+
+                b{
+                    width: 18px;
+                    height: 14px;
+                    margin: 0 5px;
+                    background: url("../img/login-wenjuan.png") no-repeat;
+                    overflow: hidden;
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+            }
+            a:hover{
+                color:#e1251b;
+            }
+        }
+    }
+
+}
+
+.tishi-wrap{
+    width: 100%;
+    height: 40px;
+    background-color: #fff8f0;
+    margin-top: -15px;
+
+    .tishi{
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color:#999;
+        font-family: "宋体";
+
+        span{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+            background: url("../img/login-i.png");
+        }
+        
+    
+    }
+}
+
+
+.content-wrap{
+    width: 100%;
+    height: 475px;
+    background-color: #2f2548;
+
+    .content{
+        position: relative;
+        height: 475px;
+        background: url("../img/login-banner.jpg");
+   
+        .login-form{
+            position: absolute;
+            right: 0;
+            top: 10px;
+            width: 346px;
+            height: 428px;
+            background-color: white;
+            
+
+            .top{
+
+                padding: 10px 0;
+                text-align: center;
+                background-color: #fff8f0;
+                color:#999;
+                font-family: "宋体";
+
+                span{
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                    background: url("../img/login-i.png");
+                }
+            }
+
+            .h{
+                height: 55px;
+                border-bottom: 1px solid #f4f4f4;
+
+                #saoma,#zhanghu:hover,#saoma:hover{
+                    width: 168px;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #e4393c;
+                    text-align: center;
+                    font-weight: 700;
+                    margin-top: 17px;
+                    border-right: 1px solid #f4f4f4;
+                }
+                #zhanghu{
+                    width: 168px;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #666;
+                    text-align: center;
+                    margin-top: 17px;
+                }
+                
+            }
+
+            #login-by-code{
+                
+
+                #code-tab{
+                    width: 306px;
+                    height: 168px;
+                    margin: 20px auto;
+                    position: relative;
+
+                    .img-wrap{
+                        width: 173px;
+                        height: 165px;
+                        border: 1px solid #f4f4f4;
+                        position: absolute;
+                        left: 65px;
+
+                        #code{
+                            margin: 9px 0 0 13px;
+                        }
+                    }
+
+                    #sao{
+                        position: absolute;
+                        right: -18px;
+                        top: -2px;
+                        width: 141px;
+                        height: 168px;
+                        display: none;
+                    }
+
+                }
+
+                p{
+                    color:#666;
+                    font-family: "宋体";
+                    text-align: center;
+                    margin-top: 15px;
+                    margin-bottom: 20px;
+
+                    span{
+                        color:#e4393c;
+                    }
+                }
+
+                .youdian{
+                    height: 25px;
+
+                    .box{
+                        height: 25px;
+                        float: left;
+                        margin-left: 35px;
+
+                        p{
+                            color:#999; 
+                            float: right;
+                            margin: 0;
+                            line-height: 25px;
+                        }
+    
+                        b{
+                            width: 25px;
+                            height: 25px;
+                            display: block;
+                            background: url(../img/login-youdian-icon.png) no-repeat;
+                            float: left;
+                            margin-right: 10px;
+                        }
+
+                    }
+                    
+                    
+                }
+                
+            }
+
+            #login-by-zhanghao{
+                padding-top: 20px;
+                display: none;
+                height: 245px;
+
+                .user{
+                    width: 304px;
+                    height: 38px;
+                    border: 1px solid #bdbdbd;
+                    margin: 30px auto;
+
+                    span{
+                        display: block;
+                        width: 38px;
+                        height: 38px;
+                        overflow: hidden;
+                        float: left;
+                        background: url("../img/login-user-password.png");
+                        border-right: 1px solid #bdbdbd;
+                        
+                    }
+
+                    input{
+                        width: 260px;
+                        height: 38px;
+                        float: right;
+                    }
+                }
+
+                #forget{
+                    float: right;
+                    margin-right: 20px;
+                }
+                #forget:hover{
+                    color:#b6161d;
+                }
+
+                #sub{
+                    display: block;
+                    width: 304px;
+                    height: 33px;
+                    background-color: #e4393c;
+                    margin: 67px auto;
+                    color:#fff;
+                    font-size: 20px;
+                    
+                }
+
+                
+
+            }
+
+            .bot{
+                height: 50px;
+                border-top: 1px solid #f4f4f4;
+                margin-top: 18px;
+                background-color: #fcfcfc;
+                padding-top: 15px;
+                box-sizing: border-box;
+
+
+                .qq,.weixin{
+                    display: block;
+                    width: 58px;
+                    color:#666;
+                    float: left;
+                    padding-left: 15px;
+
+                    b{
+                        width: 19px;
+                        height: 18px;
+                        display: block;
+                        float: left;
+                        background: url(../img/login-qq-weixin.png);
+                        margin-right: 5px;
+                    }
+
+                }
+
+                .qq{
+                    border-right: 1px solid #ccc; 
+                }
+                .weixin{
+                    b{
+                        background-position: -19px;
+                    }
+                    
+                }
+
+                .qq:hover,.weixin:hover,.now:hover{
+                    color:#b6161d;
+                    text-decoration: underline;
+                }
+
+                .now{
+                    float: right;
+                    margin-right: 25px;
+                    color:#b6161d;
+                    font-size: 14px;
+                    font-family: "宋体";
+
+                    b{
+                        float: left;
+                        margin-right: 5px;
+                        text-align: center;
+                        line-height: 16px;
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        background-color: #b6161d;
+                        border-radius: 50%;
+                        color:#fff;
+
+                    }
+   
+                }
+            }
+        }
+    }
+
+}

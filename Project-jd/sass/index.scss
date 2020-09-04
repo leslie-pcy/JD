@@ -1,0 +1,17 @@
+body{
+    background-color: #f4f4f4;
+}
+header,.logo-nav,.banner,.miaosha,.tejia,.haohuo,.xinpin,.pindao,.tuijian,.fly-top{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+@import "indexHeader.scss";
+@import "indexLogoNav.scss";
+@import "indexBanner.scss";
+@import "indexMiaoSha.scss";
+@import "indexHaoHuo.scss";
+@import "indexPinDao.scss";
+@import "indexFly.scss";
+
+
